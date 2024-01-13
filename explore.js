@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(image);
       container.appendChild(likesicon);
       container.appendChild(likes);
-      container.appendChild(commentssicon);
+      container.appendChild(commentsicon);
       container.appendChild(comments);
       container.appendChild(sharesicon);
       container.appendChild(shares);
