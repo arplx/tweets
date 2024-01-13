@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       avatar.src = data.avatar;
       avatar.className = 'avatar';
 
-      let username = document.createElement('h2');
+      let username = document.createElement('a');
       username.href = data.username;
       username.textContent = 'Max';
       username.className = 'username';
