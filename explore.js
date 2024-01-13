@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(handle);
       container.appendChild(content);
       container.appendChild(image);
+      container.appendChild(likes);
+      container.appendChild(likesicon);
       container.appendChild(link);
 
       document.body.appendChild(container);
