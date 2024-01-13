@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       avatar.className = 'avatar';
 
       let username = document.createElement('a');
-      username.href = data.link;
+      username.href = data.username;
       username.textContent = 'Max';
       username.className = 'username';
 
