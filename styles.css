@@ -81,6 +81,34 @@ margin: 0;
   margin-right: 10px;
   margin-top: 15px;
 }
+.commentsicon {
+  width: 30px;
+  padding-bottom: 7px;
+}
+.comments {
+  margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+  display: initial;
+  padding: 0px;
+  display: ruby-text;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.sharesicon {
+  width: 30px;
+  padding-bottom: 7px;
+}
+.shares {
+  margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+  display: initial;
+  padding: 0px;
+  display: ruby-text;
+  margin-right: 10px;
+  margin-top: 15px;
+}
 
 .link {
  margin-top: 5px;
