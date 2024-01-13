@@ -34,7 +34,23 @@ document.addEventListener('DOMContentLoaded', () => {
       let likes = document.createElement('p');
       likes.textContent = data.likes;
       likes.className = 'likes';
+     
+      let commentsicon = document.createElement('img');
+      commentsicon.src = data.commentsicon;
+      commentsicon.className = 'commentsicon';
+     
+      let comments = document.createElement('p');
+      comments.textContent = data.comments;
+      comments.className = 'comments'; 
 
+      let sharesicon = document.createElement('img');
+      sharesicon.src = data.sharesicon;
+      sharesicon.className = 'sharesicon';
+     
+      let shares = document.createElement('p');
+      shares.textContent = data.shares;
+      shares.className = 'shares'; 
+     
       let link = document.createElement('a');
       link.href = data.link;
       link.textContent = 'Learn More';
@@ -47,6 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(image);
       container.appendChild(likesicon);
       container.appendChild(likes);
+      container.appendChild(commentssicon);
+      container.appendChild(comments);
+      container.appendChild(sharesicon);
+      container.appendChild(shares);
       container.appendChild(link);
 
       document.body.appendChild(container);
