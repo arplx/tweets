@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
       shares.textContent = data.shares;
       shares.className = 'shares'; 
      
-      let moreicon = document.createElement('img');
-      moreicon.src = data.moreicon;
-      moreicon.className = 'moreicon';
+      let more = document.createElement('img');
+      more.src = data.more;
+      more.className = 'more';
      
       let link = document.createElement('a');
       link.href = data.link;
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(comments);
       container.appendChild(sharesicon);
       container.appendChild(shares);
-      container.appendChild(moreicon);
+      container.appendChild(more);
       container.appendChild(link);
 
       document.body.appendChild(container);
