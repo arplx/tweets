@@ -14,6 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
       username.textContent = data.username;
       username.className = 'username';
 
+      let handle = document.createElement('h5');
+      username.textContent = data.handle;
+      username.className = 'handle';
+
       let content = document.createElement('p');
       content.textContent = data.content;
       content.className = 'content';
