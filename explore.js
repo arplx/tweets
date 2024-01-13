@@ -26,6 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
       let image = document.createElement('img');
       image.src = data.image;
       image.className = 'image';
+     
+      let likes = document.createElement('p');
+      likes.textContent = data.likes;
+      likes.className = 'likes';
+     
+      let likesicon = document.createElement('img');
+      likesicon.src = data.likesicon;
+      likesicon.className = 'likesicon';
 
       let link = document.createElement('a');
       link.href = data.link;
