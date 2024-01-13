@@ -11,7 +11,7 @@
  max-width: 400px;
 }
 .tweet {
-  width: 500px;
+width: 500px;
   background: black;
   color: white;
   display: block;
@@ -19,6 +19,7 @@
   padding: 30px;
   border-radius: 10px;
   border: 2px solid red;
+  max-width: fit-content;
 }
 
 .avatar {
