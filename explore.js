@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let username = document.createElement('h2');
       username.href = data.username;
-      link.textContent = 'Max';
+      username.textContent = 'Max';
       username.className = 'username';
 
       let handle = document.createElement('h5');
