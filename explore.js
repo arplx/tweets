@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
       image.src = data.image;
       image.className = 'image';
      
-      let likes = document.createElement('p');
-      likes.textContent = data.likes;
-      likes.className = 'likes';
-     
       let likesicon = document.createElement('img');
       likesicon.src = data.likesicon;
       likesicon.className = 'likesicon';
+     
+      let likes = document.createElement('p');
+      likes.textContent = data.likes;
+      likes.className = 'likes';
 
       let link = document.createElement('a');
       link.href = data.link;
@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(handle);
       container.appendChild(content);
       container.appendChild(image);
-      container.appendChild(likes);
       container.appendChild(likesicon);
+      container.appendChild(likes);
       container.appendChild(link);
 
       document.body.appendChild(container);
