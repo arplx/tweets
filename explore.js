@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       container.appendChild(avatar);
       container.appendChild(username);
+      container.appendChild(handle);
       container.appendChild(content);
       container.appendChild(image);
       container.appendChild(link);
