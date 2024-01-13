@@ -32,12 +32,14 @@
 .username {
 margin: 0;
     margin-bottom: 0px;
-  font-size: 14px;
+  margin-bottom: 0px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
   display: ruby-text;
   padding: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
+  text-decoration: none;
 }
 .handle {
   padding: 0px;
@@ -62,10 +64,11 @@ margin: 0;
 }
 
 .image {
-  width: 100%;
+width: 100%;
   height: 250px;
   margin-bottom: 5px;
   border-radius: 10px;
+  object-fit: cover;
 }
 .likesicon {
   width: 30px;
@@ -108,6 +111,12 @@ margin: 0;
   display: ruby-text;
   margin-right: 10px;
   margin-top: 15px;
+}
+.more {
+  width: 30px;
+  display: block;
+  margin-left: 93%;
+  margin-top: -40px;
 }
 
 .link {
