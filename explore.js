@@ -1,4 +1,5 @@
 // explore.js
+document.addEventListener('DOMContentLoaded', () => {
  fetch('explore.json')
     .then(response => response.json())
     .then(data => {
@@ -74,5 +75,3 @@
       container.appendChild(link);
 
       document.body.appendChild(container);
-    });
-});
