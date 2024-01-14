@@ -1,30 +1,34 @@
-  {
-    "avatar": "https://static.wikia.nocookie.net/tvdatabase/images/2/23/0dea5742c9a05a5fb0941d41d3efd33e.jpg/revision/latest?cb=20220223214823",
-    "username": "https://ariaplus.net/mona",
-    "handle": "@max",
-    "content": "Check out this new project I'm working on!",
-    "image": "https://geekxgirls.com/images/cosplay92/max-cosplay-02.jpg",
-    "likesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "likes": "x",
-    "commentsicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "comments": "x",
-    "sharesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "shares": "x",
-    "more": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "link": "https://www.ariaplus.net"
-  },
-  {
-    "avatar": "https://static.wikia.nocookie.net/tvdatabase/images/2/23/0dea5742c9a05a5fb0941d41d3efd33e.jpg/revision/latest?cb=20220223214823",
-    "username": "https://ariaplus.net/mona",
-    "handle": "@max",
-    "content": "Check out this new project I'm working on!",
-    "image": "https://geekxgirls.com/images/cosplay92/max-cosplay-02.jpg",
-    "likesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "likes": "x",
-    "commentsicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "comments": "x",
-    "sharesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "shares": "x",
-    "more": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
-    "link": "https://www.ariaplus.net"
+{
+  "user": {
+    "username": "john_doe",
+    "profilePicture": "profile.png",
+    "posts": [
+      {
+        "postImage": "post1.png",
+        "caption": "This is my first post!",
+        "likes": "100",
+        "comments": [
+          {
+            "username": "jane_doe",
+            "comment": "Great post!"
+          },
+          {
+            "username": "jim_brown",
+            "comment": "Nice one!"
+          }
+        ]
+      },
+      {
+        "postImage": "post2.png",
+        "caption": "This is my second post!",
+        "likes": "50",
+        "comments": [
+          {
+            "username": "sara_smith",
+            "comment": "Love it!"
+          }
+        ]
+      }
+    ]
   }
+}
