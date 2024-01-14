@@ -5,7 +5,7 @@ fetch('explore.json')
     // Display the user profile
     const userProfile = document.getElementById('user-profile');
     const userProfileHTML = `
-      <img src="${data.user.profilePicture}" alt="Profile Picture" />
+      <img src="${data.user.profilePicture}" alt="#" />
       <p>Username: ${data.user.username}</p>
     `;
     userProfile.innerHTML = userProfileHTML;
